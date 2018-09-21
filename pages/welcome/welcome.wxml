@@ -1,0 +1,7 @@
+<view>
+  <image src="/images/avatar/avatar1.jpg"></image>
+  <text>Welcome,小果嘟！</text>
+  <view>
+    <text>开启小程序之旅</text>
+  </view>
+</view>

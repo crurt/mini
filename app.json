@@ -1,9 +1,13 @@
 {
   "pages": [
     "pages/welcome/welcome",
-    "pages/post/post"
+    "pages/post/post",
+    "pages/post/post-detail/post-datail",
+    "pages/post/post-comment/post-comment"
   ],
   "window": {
-    "navigationBarBackgroundColor": "#4A6141"
+    "navigationBarBackgroundColor": "#4A6141",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "果嘟生活"
   }
 }

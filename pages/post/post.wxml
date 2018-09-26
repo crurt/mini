@@ -12,7 +12,9 @@
       <image src="/images/post/post3.jpg" />
     </swiper-item>
   </swiper>
-  <block wx:for="{{postList}}" wx:key="property" wx:for-item="item1" wx:for-index="idx">
-    <template is="postItemTpl" data="{{...item1}}" />
+  <block wx:for="{{postList}}" wx:key="property" wx:for-item="item" wx:for-index="idx">
+    <view catchtap="onTapToDetail" data-post-id="{{item.postId}}">
+      <template is="postItemTpl" data="{{...item}}" />
+    </view>
   </block>
 </view>

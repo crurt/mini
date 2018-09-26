@@ -68,5 +68,13 @@ Page({
    */
   onShareAppMessage: function() {
     console.log("onLoad:页面被分享")
+  },
+
+  onTapToDetail(event){
+    var postId=event.currentTarget.dataset.postId;
+    console.log(postId)
+    wx.navigateTo({
+      url: 'post-detail/post-detail?id='+postId,
+    })
   }
 })
